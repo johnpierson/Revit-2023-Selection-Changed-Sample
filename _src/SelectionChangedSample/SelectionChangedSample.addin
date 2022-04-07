@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Protect</Text>
+    <Description>Some description for SelectionChangedSample</Description>
+    <Assembly>SelectionChangedSample.dll</Assembly>
+    <FullClassName>SelectionChangedSample.Protect</FullClassName>
+    <ClientId>ef0dbed1-6466-4d16-925f-553c7d599c2b</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>sixtysecondrevit.com</VendorDescription>
+  </AddIn>
+	<AddIn Type="Command">
+		<Text>Not protect</Text>
+		<Description>Some description for SelectionChangedSample</Description>
+		<Assembly>SelectionChangedSample.dll</Assembly>
+		<FullClassName>SelectionChangedSample.NotProtect</FullClassName>
+		<ClientId>A3B1F549-8DCA-4FF4-80C9-58C5733876D8</ClientId>
+		<VendorId>com.typepad.thebuildingcoder</VendorId>
+		<VendorDescription>sixtysecondrevit.com</VendorDescription>
+	</AddIn>
+  <AddIn Type="Application">
+    <Name>Application SelectionChangedSample</Name>
+    <Assembly>SelectionChangedSample.dll</Assembly>
+    <FullClassName>SelectionChangedSample.App</FullClassName>
+    <ClientId>cd58e2ae-68ee-41de-aabd-43aaaa1174d7</ClientId>
+    <VendorId>john p</VendorId>
+    <VendorDescription>sixtysecondrevit.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
